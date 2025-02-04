@@ -29,7 +29,7 @@
 
     const params = new URLSearchParams({ name, tel });
     const res = await fetch(
-      `https://brams.ru/zayavka/?${params.toString()}`,
+      `https://brams-demo.netlify.app/zayavka/?${params.toString()}`,
       {
         method: "GET",
         headers: {
@@ -67,39 +67,20 @@
   export const images = [
     {
       alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/1.jpeg',
+      src: 'https://brams-demo.netlify.app/images/carusel/1.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/2.jpeg',
+      src: 'https://brams-demo.netlify.app/images/carusel/2.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/3.jpeg',
+      src: 'https://brams-demo.netlify.app/images/carusel/3.jpg',
       title: 'Brams'
     },
-    {
-      alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/4.jpeg',
-      title: 'Brams'
-    },
-    {
-      alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/5.jpeg',
-      title: 'Brams'
-    },
-    {
-      alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/6.jpeg',
-      title: 'Brams'
-    },
-    {
-      alt: 'Brams',
-      src: 'https://brams.ru/images/carusel/7.jpeg',
-      title: 'Brams'
-    },
+    
   ];
 </script>
 
