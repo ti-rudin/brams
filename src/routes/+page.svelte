@@ -528,18 +528,12 @@
         >
           Контакты
         </h2>
-        <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
-          Адрес: Москва, ЮВАО,<br /> р-н Лефортово, м. Авиамоторная, <br />улица
-          Золоторожский Вал, 11С22 No.327.
-        </p>
-
+      
         <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
           эл. почта: <a class="font-bold" href="mailto:brams.ltd@bk.ru" >brams.ltd@bk.ru</a>
         </p>
 
-        <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
-          телефон: <a href="tel:8 800 222 43 05" class="font-bold text-red-500">8 800 222 43 05</a>
-        </p>
+     
       </div>
     </div>
   </section>
