@@ -67,19 +67,19 @@
 
   export const images = [
     {
-      alt: 'Brams',
+      alt: 'BRAMS',
       src: 'https://brams-demo.netlify.app/images/carusel/1.jpg',
-      title: 'Brams'
+      title: 'BRAMS'
     },
     {
-      alt: 'Brams',
+      alt: 'BRAMS',
       src: 'https://brams-demo.netlify.app/images/carusel/2.jpg',
-      title: 'Brams'
+      title: 'BRAMS'
     },
     {
-      alt: 'Brams',
+      alt: 'BRAMS',
       src: 'https://brams-demo.netlify.app/images/carusel/3.jpg',
-      title: 'Brams'
+      title: 'BRAMS'
     },
   ];
 </script>
@@ -92,14 +92,15 @@
       >
         <a href="/" class="flex items-center">
           <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-            >Brams</span
+            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white border-2 border-black p-2"
+            >BRAMS</span
           >
-          
         </a>
 
         <div class="flex items-center lg:order-2">
+          <!--
           <Button class="mr-2" on:click={() => (formModal = true)}>Заказать</Button>
+          -->
           <button
             data-collapse-toggle="mobile-menu-2"
             type="button"
@@ -182,7 +183,7 @@
       src="./images/h1.jpg"
       alt=""
     />
-    <div class="flex text-center max-w-screen-xl px-4 pb-8 mx-auto">
+    <div class="flex text-center max-w-screen-xl px-4 p-6 mx-auto">
       <div class="mx-auto place-self-center lg:col-span-7">
         <h1
           class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
@@ -192,7 +193,7 @@
         <p
           class="max-w-2xl mb-6 font-light text-gray700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
         >
-          «Brams» - это новая торговая марка моек из нержавеющей стали высокого качества, ориентированная на продажу в розничной сети с рекомендованными розничными ценами.
+          «BRAMS» - это новая торговая марка моек из нержавеющей стали высокого качества, ориентированная на продажу в розничной сети с рекомендованными розничными ценами.
         </p>
       </div>
     </div>
@@ -301,7 +302,7 @@
         <h2
           class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
         >
-          Мойки Brams отвечают всем основным требованиям потребителя.
+          Мойки BRAMS отвечают всем основным требованиям потребителя.
         </h2>
         <div
           class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700"
@@ -509,7 +510,7 @@
         <h2
           class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white"
         >
-          Закажите Brams сегодня.
+          Закажите BRAMS сегодня.
         </h2>
         <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
           Оставьте e-mail или телефон - перезвоним в течение 1 мин!
@@ -548,10 +549,10 @@
           href="/"
           class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
         >
-          Brams
+          BRAMS
         </a>
         <span class="block text-sm text-center text-gray-700 dark:text-gray-400"
-          >© 2024 Brams™. Все права защищены.
+          >© 2024 BRAMS™. Все права защищены.
         </span>
       </div>
     </div>
