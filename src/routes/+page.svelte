@@ -493,7 +493,7 @@
               >Как связаться с компанией?</span
             >
             <p class="mb-2 text-gray-700 dark:text-gray-400">
-              Вы можете связаться с нами по электронной почте <a class="font-bold" href="mailto:brams.ltd@bk.ru">brams.ltd@bk.ru</a> или по телефону <a href="tel:8 800 222 43 05" class="font-bold text-red-500">8 800 222 43 05</a>.
+              Вы можете связаться с нами по электронной почте <a class="font-bold" href="mailto:brams.ltd@bk.ru">brams.ltd@bk.ru</a> 
             </p>
           </AccordionItem>
         </Accordion>
