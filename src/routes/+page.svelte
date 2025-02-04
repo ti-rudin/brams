@@ -385,7 +385,7 @@
               />
             </svg>
             <h3 class="mb-2 text-2xl font-bold dark:text-white">
-              Глубина чаши 230мм
+              Глубина чаши 230 мм
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
               Комплектация: сифон, съемный лоток, дозатор
