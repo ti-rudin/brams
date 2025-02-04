@@ -40,6 +40,7 @@
     );
     if (res.ok) {
       alert("Спасибо за интерес к нашей компании! Мы свяжемся с Вами в ближайшее время.");
+      formModal = false; // Close the modal after successful submission
     }
   }
 
@@ -48,10 +49,10 @@
     const button = document.querySelector('[aria-controls="mobile-menu-2"]');
 
     if (mobileMenu?.classList.contains("hidden")) {
-      mobileMenu.classList.remove("hidden");
+      (mobileMenu as HTMLElement).classList.remove("hidden");
       button?.setAttribute("aria-expanded", "true");
     } else {
-      mobileMenu?.classList.add("hidden");
+      (mobileMenu as HTMLElement).classList.add("hidden");
       button?.setAttribute("aria-expanded", "false");
     }
   }
@@ -67,20 +68,19 @@
   export const images = [
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carusel/1.jpg',
+      src: 'https://brams-demo.netlify.app/images/carousel/1.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carusel/2.jpg',
+      src: 'https://brams-demo.netlify.app/images/carousel/2.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carusel/3.jpg',
+      src: 'https://brams-demo.netlify.app/images/carousel/3.jpg',
       title: 'Brams'
     },
-    
   ];
 </script>
 
@@ -492,7 +492,7 @@
               >Как связаться с компанией?</span
             >
             <p class="mb-2 text-gray-700 dark:text-gray-400">
-              Вы можете связаться с нами по электронной почте <a class="font-bold" href="mailto:brams.ltd@bk.ru">brams.ltd@bk.ru</a> 
+              Вы можете связаться с нами по электронной почте <a class="font-bold" href="mailto:brams.ltd@bk.ru">brams.ltd@bk.ru</a> или по телефону <a href="tel:8 800 222 43 05" class="font-bold text-red-500">8 800 222 43 05</a>.
             </p>
           </AccordionItem>
         </Accordion>
@@ -511,7 +511,7 @@
           Закажите Brams сегодня.
         </h2>
         <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
-          Оставьте e-mail или телефон - перезвоним в течении 1 мин!
+          Оставьте e-mail или телефон - перезвоним в течение 1 мин!
         </p>
         <Button on:click={() => (formModal = true)}>Заказать</Button>
       </div>
@@ -527,13 +527,18 @@
         >
           Контакты
         </h2>
-      
+        <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
+          Адрес: Москва, ЮВАО,<br /> р-н Лефортово, м. Авиамоторная, <br />улица
+          Золоторожский Вал, 11С22 No.327.
+        </p>
 
         <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
           эл. почта: <a class="font-bold" href="mailto:brams.ltd@bk.ru" >brams.ltd@bk.ru</a>
         </p>
 
-      
+        <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
+          телефон: <a href="tel:8 800 222 43 05" class="font-bold text-red-500">8 800 222 43 05</a>
+        </p>
       </div>
     </div>
   </section>
@@ -556,11 +561,36 @@
       </div>
     </div>
   </footer>
-</body>
 
-<style>
-  .logo {
-    margin-right: 10px;
-    height: 35px;
-  }
-</style>
+  <!-- Modal -->
+  <Modal bind:open={formModal} size="xs" autoclose={true} class="w-full">
+    <form class="flex flex-col space-y-6" action="#">
+      <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">
+        Оставьте e-mail или телефон - перезвоним в течении 1 мин!
+      </h3>
+      <Label class="space-y-2">
+        <span>Имя</span>
+        <Input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="(необязательно)"
+          required
+        />
+      </Label>
+      <Label class="space-y-2">
+        <span>Телефон или Email</span>
+        <Input
+          type="text"
+          name="tel"
+          id="tel"
+          placeholder="8(XXX)XXX-XX-XX или email@example.com"
+          required
+        />
+      </Label>
+      <Button type="submit" on:click={get_info} class="w-full1"
+        >Отправить</Button
+      >
+    </form>
+  </Modal>
+</body>
