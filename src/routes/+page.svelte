@@ -68,17 +68,17 @@
   export const images = [
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carousel/1.jpg',
+      src: 'https://brams-demo.netlify.app/images/carusel/1.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carousel/2.jpg',
+      src: 'https://brams-demo.netlify.app/images/carusel/2.jpg',
       title: 'Brams'
     },
     {
       alt: 'Brams',
-      src: 'https://brams-demo.netlify.app/images/carousel/3.jpg',
+      src: 'https://brams-demo.netlify.app/images/carusel/3.jpg',
       title: 'Brams'
     },
   ];
@@ -427,7 +427,7 @@
  <section class="bg-gray-50 dark:bg-gray-800">
   <div class="max-w-screen-xl min-h-200  px-4 py-4 mx-auto text-center lg:px-6">
 
-    <Carousel {images} {forward} class="min-h-[720px]" imgClass=" w-fit "  let:Indicators let:Controls bind:index>
+    <Carousel {images} {forward} class="min-h-[420px]" imgClass=" w-fit "  let:Indicators let:Controls bind:index>
       <Controls />
       <Indicators />
     </Carousel>
