@@ -472,12 +472,12 @@
         <h2
           class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white"
         >
-          Закажите BRAMS сегодня.
+          Свяжитесь с нами сегодня.
         </h2>
         <p class="mb-6 font-light text-gray-700 dark:text-gray-400 md:text-lg">
           Оставьте e-mail или телефон - перезвоним в течение 1 мин!
         </p>
-        <Button on:click={() => (formModal = true)}>Заказать</Button>
+        <Button on:click={() => (formModal = true)}>Связаться</Button>
       </div>
     </div>
   </section>
@@ -524,7 +524,7 @@
   <Modal bind:open={formModal} size="xs" autoclose={true} class="w-full">
     <form class="flex flex-col space-y-6" action="#">
       <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">
-        Оставьте e-mail или телефон - перезвоним в течении 1 мин!
+        Оставьте e-mail или телефон - перезвоним в течении 10 мин!
       </h3>
       <Label class="space-y-2">
         <span>Имя</span>
