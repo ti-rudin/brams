@@ -192,7 +192,7 @@
         <h1
           class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight dark:text-white"
         >
-          Кухонные мойки из нержавеющей стали премиум-класса
+          Кухонные мойки из нержавеющей стали премиум-класса оптом
         </h1>
         <p
           class="max-w-2xl mb-2 font-light  lg:mb-4 md:text-lg lg:text-xl"
@@ -207,16 +207,16 @@
   <!-- Start block -->
   <section class="bg-gray-50 dark:bg-gray-800" id="about">
     <div
-      class="max-w-screen-xl px-4 pt-4 mx-auto space-y-12 lg:space-y-20 lg:pt-24 lg:px-6"
+      class="max-w-screen-xl px-4 pt-4 mx-auto space-y-12 lg:space-y-20 lg:px-6"
     >
       <!-- Row -->
       <div class="flex text-center max-w-screen-xl px-4 p-2 mx-auto">
-        <div class="mx-auto place-self-center lg:col-span-7">
-          <h2
+        <div class="mx-auto  lg:col-span-7">
+          <h1
             class="mb-2 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
             Почему выбирают нас?
-          </h2>
+          </h1>
           <p class="mb-4 font-light lg:text-xl">
             Политика фирмы-производителя – это возможность зарабатывать всем звеньям цепи продаж, поэтому эта продукция никогда не будет продаваться на маркетплейсах.
           </p>
