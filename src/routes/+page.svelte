@@ -183,15 +183,15 @@
       src="./images/h1.jpg"
       alt=""
     />
-    <div class="flex text-center max-w-screen-xl px-4 p-6 mx-auto">
+    <div class="flex text-center max-w-screen-xl px-4 p-3 mx-auto">
       <div class="mx-auto place-self-center lg:col-span-7">
         <h1
-          class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
+          class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
         >
           Кухонные мойки из нержавеющей стали премиум-класса
         </h1>
         <p
-          class="max-w-2xl mb-6 font-light text-gray700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          class="max-w-2xl mb-4 font-light text-gray700 lg:mb-4 md:text-lg lg:text-xl dark:text-gray-400"
         >
           «BRAMS» - это новая торговая марка моек из нержавеющей стали высокого качества, ориентированная на продажу в розничной сети с рекомендованными розничными ценами.
         </p>
@@ -203,17 +203,17 @@
   <!-- Start block -->
   <section class="bg-gray-50 dark:bg-gray-800" id="about">
     <div
-      class="max-w-screen-xl px-4 pt-8 mx-auto space-y-12 lg:space-y-20 lg:pt-24 lg:px-6"
+      class="max-w-screen-xl px-4 pt-4 mx-auto space-y-12 lg:space-y-20 lg:pt-24 lg:px-6"
     >
       <!-- Row -->
       <div class="items-center gap-8 xl:gap-16">
         <div class="text-gray-700 sm:text-lg dark:text-gray-400">
           <h2
-            class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
             Почему выбирают нас?
           </h2>
-          <p class="mb-8 font-light lg:text-xl text-gray-700">
+          <p class="mb-4 font-light lg:text-xl text-gray-700">
             Политика фирмы-производителя – это возможность зарабатывать всем звеньям цепи продаж, поэтому эта продукция никогда не будет продаваться на маркетплейсах.
           </p>
           <!-- List -->
@@ -276,7 +276,7 @@
               >
             </li>
           </ul>
-          <p class="mb-8 font-light lg:text-xl text-gray-700">
+          <p class="mb-4 font-light lg:text-xl text-gray-700">
             Сотрудничество с нами интересно всем, кто занимается оптом и ориентирован на качественную китайскую продукцию без посредников.
           </p>
         </div>
@@ -295,12 +295,12 @@
     <div
       class="text-center items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-24 lg:py-6 lg:px-6"
     >
-      <div class="col-span-2 mb-8">
+      <div class="col-span-2 mb-4">
         <p class="text-lg font-medium text-purple-600 dark:text-purple-500">
           Качество продукции
         </p>
         <h2
-          class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
+          class="mt-3 mb-4 text-2xl font-extrabold tracking-tight text-gray-900 md:text-2xl dark:text-white"
         >
           Мойки BRAMS отвечают всем основным требованиям потребителя.
         </h2>
@@ -323,7 +323,7 @@
                 clip-rule="evenodd"
               />
             </svg>
-            <h3 class="mb-2 text-2xl font-bold dark:text-white">
+            <h3 class="mb-2 text-xl font-bold dark:text-white">
               Пищевая сталь
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
@@ -341,11 +341,11 @@
                 d="M12.356 3.066a1 1 0 0 0-.712 0l-7 2.666A1 1 0 0 0 4 6.68a17.695 17.695 0 0 0 2.022 7.98 17.405 17.405 0 0 0 5.403 6.158 1 1 0 0 0 1.15 0 17.406 17.406 0 0 0 5.402-6.157A17.694 17.694 0 0 0 20 6.68a1 1 0 0 0-.644-.949l-7-2.666Z"
               />
             </svg>
-            <h3 class="mb-2 text-2xl font-bold dark:text-white">
-              Толщина бортов 3,0мм
+            <h3 class="mb-2 text-xl font-bold dark:text-white">
+              Толщина 
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
-              Толщина чаши 1,5мм
+              бортов 3,0мм, чаши 1,5мм
             </p>
           </div>
           <div class="flex flex-col items-center text-center">
@@ -364,7 +364,7 @@
                 d="M12.503 2.134a1 1 0 0 0-1 0L4.501 6.17A1 1 0 0 0 4.5 7.902l7.002 4.047a1 1 0 0 0 1 0l6.998-4.04a1 1 0 0 0 0-1.732l-6.997-4.042Z"
               />
             </svg>
-            <h3 class="mb-2 text-2xl font-bold dark:text-white">
+            <h3 class="mb-2 text-xl font-bold dark:text-white">
               Шумопоглощающая обливка
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
@@ -384,34 +384,61 @@
                 clip-rule="evenodd"
               />
             </svg>
-            <h3 class="mb-2 text-2xl font-bold dark:text-white">
-              Глубина чаши 230 мм
+            <h3 class="mb-2 text-xl font-bold dark:text-white">
+              Комплектация
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
-              Комплектация: сифон, съемный лоток, дозатор
+              Cифон, съемный лоток, дозатор
             </p>
           </div>
         </div>
       </div>
     </div>
-
+ <div
+      class="items-center max-w-screen-xl px-4 py-2 mx-auto lg:gap-16 xl:gap-24 lg:py-2 lg:px-6"
+    >
+      <div class="items-center col-span-2 mb-4">
+        <svg
+        class="w-8 h-8 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.005 10.19a1 1 0 0 1 1 1v.233l5.998 3.464L18 11.423v-.232a1 1 0 1 1 2 0V12a1 1 0 0 1-.5.866l-6.997 4.042a1 1 0 0 1-1 0l-6.998-4.042a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1ZM5 15.15a1 1 0 0 1 1 1v.232l5.997 3.464 5.998-3.464v-.232a1 1 0 1 1 2 0v.81a1 1 0 0 1-.5.865l-6.998 4.042a1 1 0 0 1-1 0L4.5 17.824a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1Z"
+          clip-rule="evenodd"
+        />
+        <path
+          d="M12.503 2.134a1 1 0 0 0-1 0L4.501 6.17A1 1 0 0 0 4.5 7.902l7.002 4.047a1 1 0 0 0 1 0l6.998-4.04a1 1 0 0 0 0-1.732l-6.997-4.042Z"
+        />
+      </svg>
+         <h2
+          class="text-center mt-1 mb-4 text-2xl font-extrabold tracking-tight text-gray-900 md:text-2xl dark:text-white"
+        >
+          Размеры
+      </h2>
+     
+  
+        <p
+          class="font-light text-gray-700 sm:text-xl dark:text-gray-400 text-center"
+        >
+          45х48, 50х45, 60х45, глубина чаши 23 cм<br> в цвете сатин и черный
+        </p>
+       
+      </div>
+    </div>
     <div
       class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-24 lg:py-6 lg:px-6"
     >
-      <div class="items-center col-span-2 mb-8">
+      <div class="items-center col-span-2 mb-4">
         <p
-          class="text-lg font-medium text-purple-600 dark:text-purple-500 text-center"
+          class="text-2xl font-medium dark:text-white text-center"
         >
           Порядок отгрузки
         </p>
-        <h2
-          class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white text-center"
-        >
-          ОТГРУЖАЕМ ИСКЛЮЧИТЕЛЬНО ОПТОМ, КРАТНО ФУРЕ:
-        </h2>
-        <div
-          class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700"
-        ></div>
+     
+  
         <p
           class="font-light text-gray-700 sm:text-xl dark:text-gray-400 text-center"
         >
@@ -440,7 +467,7 @@
   <section class="bg-white dark:bg-gray-900">
     <div class="max-w-screen-xl px-4 pb-8 py-8 mx-auto lg:pb-24 lg:px-6">
       <h2
-        class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white"
+        class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-4 lg:text-3xl dark:text-white"
       >
         Вопросы и ответы.
       </h2>
