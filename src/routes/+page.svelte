@@ -81,6 +81,16 @@
       src: 'https://brams-demo.netlify.app/images/carusel/3.jpg',
       title: 'BRAMS'
     },
+    {
+      alt: 'BRAMS',
+      src: 'https://brams-demo.netlify.app/images/carusel/4.jpg',
+      title: 'BRAMS'
+    },
+    {
+      alt: 'BRAMS',
+      src: 'https://brams-demo.netlify.app/images/carusel/5.jpg',
+      title: 'BRAMS'
+    },
   ];
 </script>
 
@@ -290,6 +300,18 @@
     />
   </section>
   <!-- End block -->
+    <!-- Start block -->
+ <section class="bg-gray-50 dark:bg-gray-800">
+  <div class="max-w-screen-xl min-h-200  px-4 py-4 mx-auto text-center lg:px-6">
+
+    <Carousel {images} {forward} class="min-h-[420px]" imgClass=" w-fit "  let:Indicators let:Controls bind:index>
+      <Controls />
+      <Indicators />
+    </Carousel>
+    <Thumbnails {images} {forward} bind:index />
+  </div>
+  </section>
+  <!-- End block -->
   <!-- Start block -->
   <section class="bg-white dark:bg-gray-900" id="delivery">
     <div
@@ -324,10 +346,10 @@
               />
             </svg>
             <h3 class="mb-2 text-xl font-bold dark:text-white">
-              Пищевая сталь
+              Нержавеющая сталь
             </h3>
             <p class="font-light text-gray-700 dark:text-gray-400">
-              Производство Китай
+              AISI 304
             </p>
           </div>
           <div class="flex flex-col items-center text-center">
@@ -394,40 +416,29 @@
         </div>
       </div>
     </div>
- <div
-      class="items-center max-w-screen-xl px-4 py-2 mx-auto lg:gap-16 xl:gap-24 lg:py-2 lg:px-6"
+
+    <div class="flex flex-col items-center text-center">
+      <svg
+      class="w-8 h-8 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+      fill="currentColor"
+      viewBox="0 0 640 512"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <div class="items-center col-span-2 mb-4">
-        <svg
-        class="w-8 h-8 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
-        fill="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M5.005 10.19a1 1 0 0 1 1 1v.233l5.998 3.464L18 11.423v-.232a1 1 0 1 1 2 0V12a1 1 0 0 1-.5.866l-6.997 4.042a1 1 0 0 1-1 0l-6.998-4.042a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1ZM5 15.15a1 1 0 0 1 1 1v.232l5.997 3.464 5.998-3.464v-.232a1 1 0 1 1 2 0v.81a1 1 0 0 1-.5.865l-6.998 4.042a1 1 0 0 1-1 0L4.5 17.824a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1Z"
-          clip-rule="evenodd"
-        />
-        <path
-          d="M12.503 2.134a1 1 0 0 0-1 0L4.501 6.17A1 1 0 0 0 4.5 7.902l7.002 4.047a1 1 0 0 0 1 0l6.998-4.04a1 1 0 0 0 0-1.732l-6.997-4.042Z"
-        />
-      </svg>
-         <h2
-          class="text-center mt-1 mb-4 text-2xl font-extrabold tracking-tight text-gray-900 md:text-2xl dark:text-white"
-        >
-          Размеры
-      </h2>
-     
-  
-        <p
-          class="font-light text-gray-700 sm:text-xl dark:text-gray-400 text-center"
-        >
-          45х48, 50х45, 60х45, глубина чаши 23 cм<br> в цвете сатин и черный
-        </p>
-       
-      </div>
+      <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+      <path
+        d="M0 336c0 26.5 21.5 48 48 48l544 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48l-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0c-26.5 0-48 21.5-48 48L0 336z"
+      />
+    </svg>
+    
+      <h3 class="mb-2 text-xl font-bold dark:text-white">
+        Размеры
+      </h3>
+      <p class="font-light text-gray-700 dark:text-gray-400">
+        45х48, 50х45, 60х45, глубина чаши 23 cм<br> в цвете сатин и черный
+      </p>
     </div>
+
+
     <div
       class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-24 lg:py-6 lg:px-6"
     >
@@ -440,95 +451,19 @@
      
   
         <p
-          class="font-light text-gray-700 sm:text-xl dark:text-gray-400 text-center"
+          class="font-light text-center"
         >
           Первая пробная отгрузка – от 1 единицы товара. Дальнейшие поставки от 10 шт. в ассортименте размеров.
         </p>
-        <p class="font-light sm:text-xl dark:text-gray-400 text-center">
+        <p class="font-light  text-center">
           Доставка осуществляется транспортными компаниями.
         </p>
       </div>
     </div>
   </section>
   <!-- End block -->
- <!-- Start block -->
- <section class="bg-gray-50 dark:bg-gray-800">
-  <div class="max-w-screen-xl min-h-200  px-4 py-4 mx-auto text-center lg:px-6">
 
-    <Carousel {images} {forward} class="min-h-[420px]" imgClass=" w-fit "  let:Indicators let:Controls bind:index>
-      <Controls />
-      <Indicators />
-    </Carousel>
-    <Thumbnails {images} {forward} bind:index />
-  </div>
-  </section>
-  <!-- End block -->
-  <!-- Start block -->
-  <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 pb-8 py-8 mx-auto lg:pb-24 lg:px-6">
-      <h2
-        class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-4 lg:text-3xl dark:text-white"
-      >
-        Вопросы и ответы.
-      </h2>
-      <div class="max-w-screen-md mx-auto">
-        <Accordion flush>
-          <AccordionItem>
-            <span slot="header" class="text-gray-700"
-              >Как происходит согласование, заказ, оплата и получение продукции?</span
-            >
-            <p class="mb-2 text-gray-700 dark:text-gray-400">
-              При помощи наших сотрудников, либо по информации на сайте, Вам необходимо определиться с Вашими потребностями и сообщить сотруднику информацию для заказа:
-              <br />
-              1. В какой город будет осуществляться доставка;
-              <br />
-              2. Какой объем (количество штук);
-              <br />
-              3. Как будет происходить оплата (наличный или безналичный расчет);
-              <br />
-              4. Сообщить об оплате;
-              <br />
-              5. Согласовать день доставки.
-            </p>
-            <p class="mb-2 text-gray-700 dark:text-gray-400">
-              <strong>Порядок оплаты</strong><br />
-              Отгрузка товара происходит после его оплаты. Способы оплаты:
-              <br />
-              - БЕЗНАЛИЧНЫЙ РАСЧЕТ (с НДС)<br />
-              Заключаем договор, получаем от вас заказ и выставляем счет на оплату. После оплаты счета согласовываем день доставки.
-              <br />
-              - НАЛИЧНЫЙ РАСЧЕТ согласовывается с менеджером.
-            </p>
-          </AccordionItem>
-          <AccordionItem>
-            <span slot="header" class="text-gray-700"
-              >Как осуществляется доставка?</span
-            >
-            <p class="mb-2 text-gray-700 dark:text-gray-400">
-              Доставка осуществляется транспортными компаниями. Мы отправляем товар со склада в Москве.
-            </p>
-          </AccordionItem>
-          <AccordionItem>
-            <span slot="header" class="text-gray-700"
-              >Какие гарантии предоставляет компания?</span
-            >
-            <p class="mb-2 text-gray-700 dark:text-gray-400">
-              Мы гарантируем высокое качество нашей продукции. Все мойки проходят строгий контроль качества перед отправкой.
-            </p>
-          </AccordionItem>
-          <AccordionItem>
-            <span slot="header" class="text-gray-700"
-              >Как связаться с компанией?</span
-            >
-            <p class="mb-2 text-gray-700 dark:text-gray-400">
-              Вы можете связаться с нами по электронной почте <a class="font-bold" href="mailto:brams.ltd@bk.ru">brams.ltd@bk.ru</a> 
-            </p>
-          </AccordionItem>
-        </Accordion>
-      </div>
-    </div>
-  </section>
-  <!-- End block -->
+
 
   <!-- Start block -->
   <section class="bg-gray-50 dark:bg-gray-800">
