@@ -196,12 +196,12 @@
     <div class="flex text-center max-w-screen-xl px-4 p-3 mx-auto">
       <div class="mx-auto place-self-center lg:col-span-7">
         <h1
-          class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
+          class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight dark:text-white"
         >
           Кухонные мойки из нержавеющей стали премиум-класса
         </h1>
         <p
-          class="max-w-2xl mb-4 font-light text-gray700 lg:mb-4 md:text-lg lg:text-xl dark:text-gray-400"
+          class="max-w-2xl mb-2 font-light  lg:mb-4 md:text-lg lg:text-xl"
         >
           «BRAMS» - это новая торговая марка моек из нержавеющей стали высокого качества, ориентированная на продажу в розничной сети с рекомендованными розничными ценами.
         </p>
@@ -216,14 +216,14 @@
       class="max-w-screen-xl px-4 pt-4 mx-auto space-y-12 lg:space-y-20 lg:pt-24 lg:px-6"
     >
       <!-- Row -->
-      <div class="items-center gap-8 xl:gap-16">
-        <div class="text-gray-700 sm:text-lg dark:text-gray-400">
+      <div class="flex text-center max-w-screen-xl px-4 p-2 mx-auto">
+        <div class="mx-auto place-self-center lg:col-span-7">
           <h2
-            class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+            class="mb-2 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
             Почему выбирают нас?
           </h2>
-          <p class="mb-4 font-light lg:text-xl text-gray-700">
+          <p class="mb-4 font-light lg:text-xl">
             Политика фирмы-производителя – это возможность зарабатывать всем звеньям цепи продаж, поэтому эта продукция никогда не будет продаваться на маркетплейсах.
           </p>
           <!-- List -->
@@ -286,7 +286,7 @@
               >
             </li>
           </ul>
-          <p class="mb-4 font-light lg:text-xl text-gray-700">
+          <p class="mb-4 font-light lg:text-xl">
             Сотрудничество с нами интересно всем, кто занимается оптом и ориентирован на качественную китайскую продукцию без посредников.
           </p>
         </div>
@@ -294,7 +294,7 @@
       <!-- Row -->
     </div>
     <img
-      class="w-[1280px] flex mx-auto pb-[20px]"
+      class="w-[1280px] flex mx-auto pb-[10px]"
       src="./images/man.jpg"
       alt=""
     />
@@ -302,7 +302,7 @@
   <!-- End block -->
     <!-- Start block -->
  <section class="bg-gray-50 dark:bg-gray-800">
-  <div class="max-w-screen-xl min-h-200  px-4 py-4 mx-auto text-center lg:px-6">
+  <div class="max-w-screen-xl min-h-200  px-4 py-2 mx-auto text-center lg:px-6">
 
     <Carousel {images} {forward} class="min-h-[420px]" imgClass=" w-fit "  let:Indicators let:Controls bind:index>
       <Controls />
